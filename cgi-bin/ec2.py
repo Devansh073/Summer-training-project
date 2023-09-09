@@ -6,8 +6,8 @@ import cgi
 print("Content-type: text/html\n")
 
 # AWS IAM credentials (if not using IAM roles)
-aws_access_key = 'AKIA4HFJQUJ2VKV2QZMS'
-aws_secret_key = 'JVRSbgMsFBE2R8RaAWNJFlPzWxw53Y7156jmJHbf'
+aws_access_key = 'Your IAM access key'
+aws_secret_key = 'Your IAM secret key'
 region_name = 'ap-south-1'  
 
 # Initialize the EC2 client
