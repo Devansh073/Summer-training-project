@@ -3,8 +3,8 @@ import boto3
 import uuid
 import cgi
 
-aws_access_key = 'AKIA4HFJQUJ2VKV2QZMS'
-aws_secret_key = 'JVRSbgMsFBE2R8RaAWNJFlPzWxw53Y7156jmJHbf'
+aws_access_key = 'Your IAM access key'
+aws_secret_key = 'Your IAM secret key'
 bucket_name = f"my-bucket-{str(uuid.uuid4())[:8]}"  
 region_name = 'ap-south-1'  
 
